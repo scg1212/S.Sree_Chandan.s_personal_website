@@ -1,24 +1,83 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <style>
-                .top_cloud{
-                position: absolute;
-                right: 300px;
-                top: 50;
-                }
-                h1{
-                    margin-top: 0px;
-                    width: 45%;
-                    margin: auto;
-                }
+            <STYLE>
                 body{
+                    color: #40514E#;
                     margin-top: 0px;
                     margin-right: 0px;
                     margin-bottom: 0px;
                     margin-left: 0px;
                     text-align: center;
                     font-family: 'Mochiy Pop P One', sans-serif;
+                {
+            </STYLE>
+            <style>
+                .bottom-container{
+                background-color: #66BFBF
+                }
+                .btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #1199);
+  background-image: -moz-linear-gradient(top, #11CDD4, #1199);
+  background-image: -ms-linear-gradient(top, #11CDD4, #1199);
+  background-image: -o-linear-gradient(top, #11CDD4, #1199);
+  background-image: linear-gradient(to bottom, #11CDD4, #1199);
+  -webkit-border-radius: 38;
+  -moz-border-radius: 38;
+  border-radius: 38px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cfcfc;
+  background-image: -webkit-linear-gradient(top, #3cfcfc, #0066ff);
+  background-image: -moz-linear-gradient(top, #3cfcfc, #0066ff);
+  background-image: -ms-linear-gradient(top, #3cfcfc, #0066ff);
+  background-image: -o-linear-gradient(top, #3cfcfc, #0066ff);
+  background-image: linear-gradient(to bottom, #3cfcfc, #0066ff);
+  text-decoration: none;
+}
+                #intro{
+                width:30%;
+                margin: auto;
+                }
+                .middle-container{
+                margin: 100px 0;
+                }
+                .top_cloud{
+                position: absolute;
+                right: 300px;
+                top: 50;
+                }
+                .bottom_cloud{
+                position: absolute;
+                left: 300px;
+                bottom: 300;
+                }
+                h1{
+                    margin-top: 0px;
+                    width: 45%;
+                    margin: auto;
+                    color: #66BFBF;
+                }
+                h2{
+                color: #66BFBF;
+                }
+                h3{
+                color: #11999E;
+                }
+            </style>
+            <style>
+                hr{
+                margin: 50px auto;
+                border-style: dotted none none none;
+                border-width: 10px;
+                width: 10%;
                 {
             </style>
             <style>
@@ -28,7 +87,12 @@
                     position: relative;
                 {
             </style>
-            <link rel="icon" href="favicon.ico?v=3">
+            <style>
+                #foot_p{
+                margin: 0px;
+                }
+            </style>
+            <link rel="icon" href="pyico/favicon.ico?v=3">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
@@ -45,20 +109,21 @@
             <div id="top_con">
                 <p>                                   </p>
                 <p>                                   </p>
-                <img class="top_cloud" src="cloud.png">
+                <img class="top_cloud" src="pyico/cloud.png">
                 <h1>
                     i am S.Sree Chandan
                 </h1>
-                <p>
+                <h2>
                     a 7th grade student with intermediate python also wants to be a full stack devloper
-                </p>
-                <img src="mountain.png">
+                </h2>
+                <img class="bottom_cloud" src="pyico/cloud.png">
+                <img src="pyico/mountain.png">
             </div>
         <div class="middle-container">
   <div class="profile">
-    <img src="myimg-modified.png" alt="">
+    <img src="pyico/myimg-modified.png" alt="">
     <h2>Hello.</h2>
-    <p>
+    <p id="intro">
         is too intelligent for a 13 year old but bad at spelling's :), and very good at studies favourite color is blue especially cyan/light blue and a 7th grade student with intermediate python also wants to be a full stack devloper
     </p>
   </div>
@@ -69,33 +134,33 @@
       <h3>python skills</h3>
         <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" alt="">
       <p>intermediate python wants to become a software developer, python learnt from <a href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.EN_cc.INDIA&utm_term=_._ag_78279294239_._ad_533220805580_._de_c_._dm__._pl__._ti_kwd-302329806175_._li_9062147_._pd__._&utm_term=_._pd__._kw_udemy%20login_._&matchtype=e&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WiLexSNOLet0-NbQHPOMShwBHeYityxw4Xl9EOVx04hVDq-Z3Kh-hUaAqd-EALw_wcB">
-          udemy.com</a> my python teacher is angela yu</p>
+          udemy.com</a> my python teacher is: angela yu</p>
     </div>
     <div class="skill-row">
-        <h3>speech</h3>
-            <img src="https://media.giphy.com/media/2ifQqBUm1WeS5gqudb/giphy.gif" alt="">
+      <h3>speech</h3>
+                    <img src="https://media.giphy.com/media/2ifQqBUm1WeS5gqudb/giphy.gif" alt="">
       <p>good at giving speech's</p>
     </div>
     <div class="skill-row">
       <h3>attend's all group activities</h3>
-        <img src="https://media.giphy.com/media/X8p1DGHTTsEJ9JRWhg/giphy.gif" alt="">
+                <img src="https://media.giphy.com/media/X8p1DGHTTsEJ9JRWhg/giphy.gif" alt="">
       <p> good at all group activities</p>
     </div>
     <div class="skill-row">
       <h3>a good group leader</h3>
-            <img src="https://media.giphy.com/media/VEiuy1pyvmng4/giphy.gif" alt="">
+                    <img src="https://media.giphy.com/media/VEiuy1pyvmng4/giphy.gif" alt="">
       <p>gives everyone equal chance and takes everyone opinion</p>
     </div>
     <div class="skill-row">
       <h3>good html and css skill's</h3>
-            <img src="https://media.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif" alt="">
+                    <img src="https://media.giphy.com/media/u2pmTWUi0MXjyrMaVj/giphy.gif" alt="">
         <p>i am very good at html and css this site was made by me and myself using html and css.</p>
         <p>html and css learnt from <a href="https://www.udemy.com/?utm_source=adwords-brand&utm_medium=udemyads&utm_campaign=Brand-Udemy_la.EN_cc.INDIA&utm_term=_._ag_78279294239_._ad_533220805580_._de_c_._dm__._pl__._ti_kwd-302329806175_._li_9062147_._pd__._&utm_term=_._pd__._kw_udemy%20login_._&matchtype=e&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0WiLexSNOLet0-NbQHPOMShwBHeYityxw4Xl9EOVx04hVDq-Z3Kh-hUaAqd-EALw_wcB">
-          udemy.com</a></p>my html teacher is angela yu</p>
+          udemy.com</a></p>my html teacher is: angela yu</p>
     </div>
     <div class="skill-row">
-        <h3>dancing</h3>
-            <img src="https://media.giphy.com/media/3o7qE2VAxuXWeyvJIY/giphy.gif" alt="">
+      <h3>dancing</h3>
+                    <img src="https://media.giphy.com/media/3o7qE2VAxuXWeyvJIY/giphy.gif" alt="">
       <p>nice dancer that's it</p>
     </div>
     <div class="skill-row">
@@ -108,13 +173,15 @@
     <h2>Get In Touch</h2>
     <h3>how to contact me</h3>
     <p>sub's to my yt channel and comment your q's in my latest upload</p>
+    <a class="btn" href="https://www.youtube.com/channel/UCE8TtcXtLMd0kQPNQISGrCQ">youtube/yt_channel</a>
   </div>
 </div>
 
 
 <div class="bottom-container">
-  <a class="footer-link" href="https://www.youtube.com/channel/UCE8TtcXtLMd0kQPNQISGrCQ">youtube</a>
-  <p>© 2021 s.sree chandan.</p>
+    <p>                                  </p>
+    <p>                                  </p>
+  <p ID="foot_p" >© 2021 s.sree chandan.</p>
 </div>
 
         </body>
